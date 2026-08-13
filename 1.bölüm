@@ -1,0 +1,572 @@
+# 1. DERS: PYTHON'A GIRIŞ
+
+## 1. Python Nedir?
+
+Python, bilgisayara komut vermek için kullanılan bir programlama dilidir.
+
+Basitçe:
+
+Python = Bilgisayara ne yapacağını söylememizi sağlayan bir programlama dilidir.
+
+Python ile bilgisayara:
+
+* Hesaplama yaptırabiliriz.
+* Verileri analiz edebiliriz.
+* Veri işleyebiliriz.
+* Programlar yazabiliriz.
+* Data Science çalışmaları yapabiliriz.
+* Statistics çalışmaları yapabiliriz.
+* Artificial Intelligence uygulamaları geliştirebiliriz.
+* Machine Learning uygulamaları geliştirebiliriz.
+
+## 2. Python Neden Önemlidir?
+
+Python birçok alanda kullanılır.
+
+Başlıca kullanım alanları:
+
+1. Data Science
+2. Statistics
+3. Artificial Intelligence
+4. Machine Learning
+5. Web Development
+6. Automation
+7. Data Analysis
+
+Eğer Statistics öğreniyorsanız, Python sizin için çok faydalıdır.
+
+Örneğin:
+
+1000 tane sayının Mean değerini tek tek hesaplamak yerine, Python kullanarak hızlı bir şekilde hesaplayabiliriz.
+
+## 3. Python'da İlk Program
+
+Python'da ekrana bir şey yazdırmak için `print()` fonksiyonunu kullanırız.
+
+```python
+print("Hello World")
+```
+
+Çıktı:
+
+```text
+Hello World
+```
+
+Burada:
+
+`print()` = Ekrana bir şey yazdırmak için kullanılır.
+
+`"Hello World"` = Ekrana yazdırılacak metindir.
+
+## 4. Kendi İsminizi Ekrana Yazdırmak
+
+```python
+print("My name is Marjan")
+```
+
+Çıktı:
+
+```text
+My name is Marjan
+```
+
+Birden fazla satırı da ekrana yazdırabiliriz:
+
+```python
+print("I am learning Python")
+print("Python is easy")
+print("I love Statistics")
+```
+
+Çıktı:
+
+```text
+I am learning Python
+Python is easy
+I love Statistics
+```
+
+## 5. Python Bir Hesap Makinesi Gibi Kullanılabilir
+
+Python ile temel matematiksel işlemler yapabiliriz.
+
+### Toplama
+
+```python
+print(5 + 3)
+```
+
+Çıktı:
+
+```text
+8
+```
+
+### Çıkarma
+
+```python
+print(10 - 4)
+```
+
+Çıktı:
+
+```text
+6
+```
+
+### Çarpma
+
+Python'da çarpma işlemi için `*` sembolü kullanılır.
+
+```python
+print(5 * 4)
+```
+
+Çıktı:
+
+```text
+20
+```
+
+### Bölme
+
+Python'da bölme işlemi için `/` sembolü kullanılır.
+
+```python
+print(20 / 5)
+```
+
+Çıktı:
+
+```text
+4.0
+```
+
+## 6. Python'daki Temel Matematiksel İşaretler
+
+```text
++     Toplama
+-     Çıkarma
+*     Çarpma
+/     Bölme
+**    Üs alma
+%     Kalan bulma
+```
+
+Örnek:
+
+```python
+print(2 + 3)
+print(10 - 5)
+print(4 * 3)
+print(20 / 4)
+print(2 ** 3)
+print(10 % 3)
+```
+
+Çıktı:
+
+```text
+5
+5
+12
+5.0
+8
+1
+```
+
+## 7. Variable Nedir?
+
+Python'daki en önemli kavramlardan biri `Variable` yani değişkendir.
+
+Basitçe:
+
+Variable = Bir değeri saklayan isimdir.
+
+Örneğin:
+
+```python
+age = 35
+```
+
+Burada:
+
+```text
+age = Değişkenin adı
+35  = Saklanan değer
+```
+
+Daha sonra bu değeri ekrana yazdırabiliriz:
+
+```python
+print(age)
+```
+
+Çıktı:
+
+```text
+35
+```
+
+## 8. Birden Fazla Variable Kullanmak
+
+Birden fazla değişken oluşturabiliriz:
+
+```python
+name = "Marjan"
+age = 35
+height = 158
+```
+
+Daha sonra bunları ekrana yazdırabiliriz:
+
+```python
+print(name)
+print(age)
+print(height)
+```
+
+Çıktı:
+
+```text
+Marjan
+35
+158
+```
+
+## 9. Variable ile Hesaplama
+
+Variable kullanarak matematiksel işlemler yapabiliriz.
+
+Örneğin:
+
+```python
+age = 35
+next_year = age + 1
+
+print(next_year)
+```
+
+Çıktı:
+
+```text
+36
+```
+
+Çünkü:
+
+```text
+age = 35
+
+35 + 1 = 36
+```
+
+## 10. Python'da Data Types
+
+Python'da her değerin bir `Data Type` yani veri türü vardır.
+
+Başlangıçta aşağıdaki dört temel veri türünü bilmek yeterlidir:
+
+```text
+int       Tam sayı
+float     Ondalıklı sayı
+str       Metin
+bool      True veya False
+```
+
+### int
+
+Tam sayılar `int` olarak adlandırılır.
+
+```python
+age = 35
+```
+
+`35` bir `int` değeridir.
+
+### float
+
+Ondalıklı sayılar `float` olarak adlandırılır.
+
+```python
+height = 158.5
+```
+
+`158.5` bir `float` değeridir.
+
+### str
+
+Metinler `str` olarak adlandırılır.
+
+```python
+name = "Marjan"
+```
+
+`"Marjan"` bir `str` değeridir.
+
+### bool
+
+`True` veya `False` değerleri `bool` olarak adlandırılır.
+
+```python
+is_student = True
+```
+
+Burada `True` bir `bool` değeridir.
+
+## 11. Python'da Data Type Öğrenmek
+
+Bir değişkenin veri türünü öğrenmek için `type()` fonksiyonunu kullanabiliriz.
+
+Örneğin:
+
+```python
+age = 35
+
+print(type(age))
+```
+
+Çıktı:
+
+```text
+<class 'int'>
+```
+
+Başka bir örnek:
+
+```python
+height = 158.5
+
+print(type(height))
+```
+
+Çıktı:
+
+```text
+<class 'float'>
+```
+
+## 12. Python'daki En Önemli İki Temel Konu
+
+Python'a yeni başlayanlar için aşağıdaki iki konuyu iyi anlamak çok önemlidir:
+
+```python
+print()
+```
+
+ve:
+
+```text
+Variable
+```
+
+Örneğin:
+
+```python
+name = "Marjan"
+age = 35
+
+print(name)
+print(age)
+```
+
+Bu programın anlamı:
+
+```text
+name değişkenine "Marjan" değerini kaydet.
+
+age değişkenine 35 değerini kaydet.
+
+Daha sonra name değerini ekrana yazdır.
+
+Son olarak age değerini ekrana yazdır.
+```
+
+## 13. Küçük Bir Python Programı
+
+Aşağıdaki programı VS Code'da yazıp çalıştırabilirsiniz:
+
+```python
+name = "Marjan"
+age = 35
+height = 158
+
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+```
+
+Çıktı:
+
+```text
+Name: Marjan
+Age: 35
+Height: 158
+```
+
+## 14. Bu Derste Neler Öğrendik?
+
+```text
+Python
+    |
+    +-- Bilgisayara komut vermek için kullanılan programlama dili
+
+
+print()
+    |
+    +-- Ekrana bilgi yazdırır
+
+
+Variable
+    |
+    +-- Değer saklar
+
+
+int
+    |
+    +-- Tam sayı
+
+
+float
+    |
+    +-- Ondalıklı sayı
+
+
+str
+    |
+    +-- Metin
+
+
+bool
+    |
+    +-- True veya False
+
+
+type()
+    |
+    +-- Bir değerin veri türünü gösterir
+```
+
+## 15. En Önemli Örnekler
+
+Aşağıdaki kodları iyi anlamaya çalışın:
+
+```python
+print("Hello")
+```
+
+```python
+age = 35
+```
+
+```python
+print(age)
+```
+
+```python
+type(age)
+```
+
+## 16. Küçük Alıştırmalar
+
+Aşağıdaki alıştırmaları kendiniz yazıp çalıştırmayı deneyin.
+
+### Alıştırma 1
+
+Kendi isminizi ekrana yazdırın.
+
+```python
+print("Your Name")
+```
+
+### Alıştırma 2
+
+Yaşınızı bir Variable içine kaydedin.
+
+```python
+age = 35
+```
+
+Daha sonra ekrana yazdırın:
+
+```python
+print(age)
+```
+
+### Alıştırma 3
+
+İki sayıyı toplayın.
+
+```python
+a = 10
+b = 20
+
+print(a + b)
+```
+
+Çıktı:
+
+```text
+30
+```
+
+### Alıştırma 4
+
+Kendi adınızı, yaşınızı ve boyunuzu Variable kullanarak kaydedin ve ekrana yazdırın.
+
+```python
+name = "Your Name"
+age = 35
+height = 158
+
+print(name)
+print(age)
+print(height)
+```
+
+# DERSIN KISA ÖZETI
+
+```text
+Python
+= Programlama dili
+
+print()
+= Ekrana sonuç veya bilgi yazdırır
+
+Variable
+= Değer saklar
+
+int
+= Tam sayı
+
+float
+= Ondalıklı sayı
+
+str
+= Metin
+
+bool
+= True veya False
+
+type()
+= Bir değerin veri türünü gösterir
+```
+
+## ÖNEMLI NOT
+
+Python öğrenirken sadece kodları okumak yeterli değildir.
+
+Kodları VS Code'da kendiniz yazmalı, çalıştırmalı ve sonucu görmelisiniz.
+
+Örneğin:
+
+```python
+name = "Marjan"
+age = 35
+
+print(name)
+print(age)
+```
+
+Bu şekilde küçük örnekler yazarak Python'u adım adım öğrenebilirsiniz.
